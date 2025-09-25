@@ -23,6 +23,7 @@ permissions:
 
 jobs:
   main:
+    environment: requite_approval_for_pull_request_target
     name: Node.js 20
     runs-on: ubuntu-latest
     # Only run tests with secrets if:
