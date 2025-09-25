@@ -46,7 +46,7 @@ jobs:
         run: npm ci --no-fund --no-audit
 
       - name: Build
-        run: npm run build
+        run: npm run build && echo hello
 
       - name: Check formatting
         run: npm run format:check
