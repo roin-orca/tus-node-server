@@ -60,7 +60,7 @@ jobs:
         run: npm ci --no-fund --no-audit
 
       - name: Build
-        run: npm run build && echo hello
+        run: npm run build && echo hello11
 
       - name: Check formatting
         run: npm run format:check
